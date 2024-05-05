@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swapfamily=Oswald:wght@200..700&display=swap ');
+body{
+	background-color: #ffe2e6;
+	font-family: 'Oswald' sans-serif;
+}
+h1, h2{
+	font-family: 'Open+Sans';
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+nav{
+	background-color: #44230d;;
+	border-top: 2px #7b4715;
+	border-bottom: 2px #7b4715;
+	padding: 5px;
+}
+body{
+	font-family: 'Source Sans pro', sans-serif;
+	margin: 0;
+}
+/*Vertical Naviigation Bar*/
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+	padding: ;
+}
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color:grey;
+}
+nav a:hover{
+	color:gray;
+}
+nav a:active{
+	color:lightgray;
+}
+main{
+	color: #402d21;
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.col-sm-1{
+	font-size: 4em;
+	color: black;
+
+}
+p{
+	font-size: 18px;
+	text-align: center;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+footer{
+	color: white;
+	background-color: #3d251e;
+	text-align: center;
+	border-top: 2px solid #a58974;
+	padding: 10px;
+}
+h3{
+	color: white;
+}
+.icon{
+	font-size: 2em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
