@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swapfamily=Oswald:wght@200..700&display=swap ');
+body{
+	background-color: darkgrey;
+	font-family: 'Oswald' sans-serif;
+}
+header{
+	background-color: black;
+	padding: 10px;
+}
+h1, h2{
+	font-family: 'Open+Sans';
+}
+h1{
+	color: yellow;
+	text-align: center;
+	font-size: 4em;
+}
+h4{
+	text-align: center;
+}
+nav{
+	font-size: 50px;
+	color: yellow;
+	background-color: black;
+	border-top: 2px darkgrey solid;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+body{
+	font-family: 'Source Sans pro', sans-serif;
+	margin: 0;
+}
+/*Vertical Naviigation Bar*/
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	margin: 20px;
+	display: inline;
+	padding: ;
+}
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color:yellow;
+}
+nav a:hover{
+	color:gray;
+}
+nav a:active{
+	color:lightgray;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.homehero{
+	background-image: url(image/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+blockquote{
+	background-color: #eeeeee;
+	border-left: 10px solid gray;
+	padding: 30px;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+footer{
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+.fa{
+
+	font-size: 2em;
+	color: yellow;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
