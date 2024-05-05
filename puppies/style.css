@@ -67,7 +67,7 @@ main{
 	margin: 20px auto;
 }
 .homehero{
-	background-image: url(image/header.jpg);
+	background-image: url(images/header.jpg);
 	height: 475px;
 	background-size: cover;
 	background-position: center;
